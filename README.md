@@ -1,7 +1,7 @@
 # ElementraUI AI Coding Skill
 
 > **Discover. Preview. Build.**
-> Official AI pair-programming skill for [ElementraUI](https://github.com/elementraui/elementraui).
+> Official AI pair-programming skill for [ElementraUI](https://github.com/technoezmobile/ElementraUI-Website).
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Skill: Portable](https://img.shields.io/badge/Skill-Portable_Core-emerald.svg)](SKILL.md)
