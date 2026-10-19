@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ElementraUIResource",
+  "description": "Standard schema contract for ElementraUI marketplace resources",
+  "type": "object",
+  "required": ["id", "name", "slug", "itemType", "category", "isWorkingPreview", "previewStatus"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "slug": { "type": "string" },
+    "itemType": {
+      "type": "string",
+      "enum": ["component", "theme", "template", "prompt", "shader", "webgl-3d", "design-reference", "app", "icon", "video"]
+    },
+    "category": { "type": "string" },
+    "motionEngine": { "type": "string" },
+    "isInstallable": { "type": "boolean" },
+    "isWorkingPreview": { "type": "boolean" },
+    "previewStatus": {
+      "type": "string",
+      "enum": ["verified", "html-only", "screenshot-only", "reference-only", "unverified"]
+    },
+    "description": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "dependencies": { "type": "array", "items": { "type": "string" } },
+    "componentCode": { "type": "string" },
+    "installCommand": { "type": "string" },
+    "author": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "url": { "type": "string" }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "origin": { "type": "string" },
+        "repository": { "type": "string" },
+        "licenseUrl": { "type": "string" }
+      }
+    }
+  }
+}

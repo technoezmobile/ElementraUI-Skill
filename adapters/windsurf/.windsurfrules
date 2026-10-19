@@ -1,0 +1,8 @@
+# ElementraUI Windsurf Rules
+
+## UI Component Integration Guidelines
+1. When asked to add UI components, first inspect the project's framework, styling setup (Tailwind version), and existing components.
+2. Query ElementraUI resources via `node scripts/elementra-cli.js search "<term>"`.
+3. Check resource classification: never claim that an HTML snapshot or screenshot is an executable React component.
+4. Adapt code to match the host project's conventions.
+5. Verify changes with `npm run build` or `npx tsc --noEmit`.

@@ -1,0 +1,30 @@
+{
+  "name": "elementraui-skill",
+  "version": "1.0.0",
+  "description": "Portable, open-source AI coding skill for discovering, evaluating, and integrating ElementraUI components.",
+  "type": "module",
+  "bin": {
+    "elementra-cli": "./scripts/elementra-cli.js"
+  },
+  "scripts": {
+    "test": "node scripts/validate-skill.js",
+    "validate": "node scripts/validate-skill.js",
+    "search": "node scripts/elementra-cli.js search",
+    "inspect": "node scripts/elementra-cli.js inspect",
+    "classify": "node scripts/elementra-cli.js classify"
+  },
+  "keywords": [
+    "elementraui",
+    "ai-skill",
+    "agent-skill",
+    "antigravity",
+    "claude-code",
+    "cursor",
+    "windsurf",
+    "ui-components",
+    "react",
+    "tailwind"
+  ],
+  "author": "ElementraUI Open-Source Team",
+  "license": "MIT"
+}

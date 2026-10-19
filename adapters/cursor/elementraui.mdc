@@ -1,0 +1,14 @@
+---
+description: ElementraUI UI Component Discovery & Safe Integration Rules
+globs: **/*.{tsx,jsx,ts,js,css}
+alwaysApply: false
+---
+
+# ElementraUI Cursor Integration Rules
+
+When building or updating user interfaces:
+- **Inspect First:** Check existing `package.json`, Tailwind config, and component layout before proposing code changes.
+- **Resource Truthfulness:** Clearly distinguish executable React components from HTML snapshots and screenshots. Never treat a screenshot as interactive code.
+- **Dependency Hygiene:** Ensure packages (`framer-motion`, `lucide-react`, `clsx`, `tailwind-merge`) are installed before importing them.
+- **Utilities:** Use or create the standard `cn(...)` helper in `src/lib/utils.ts`.
+- **Validation:** Always run type checking (`npx tsc --noEmit`) to verify that the integrated component compiles cleanly.
