@@ -10,7 +10,7 @@ description: >-
 # ElementraUI AI Coding Skill
 
 > **Discover. Preview. Build.**
-> Official AI pair-programming skill for the [ElementraUI](https://github.com/elementraui/elementraui) component marketplace and design engineering platform.
+> Official AI pair-programming skill for the [ElementraUI](https://github.com/technoezmobile/ElementraUI-Website) component marketplace and design engineering platform.
 
 The **ElementraUI Skill** equips AI coding agents (Antigravity, Claude Code, Cursor, Windsurf, and custom LLM agents) to intelligently discover, evaluate, adapt, and integrate UI components, design systems, and templates from the ElementraUI marketplace and resource library.
 
