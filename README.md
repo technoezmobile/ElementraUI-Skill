@@ -12,6 +12,20 @@ It operates with strict adherence to architectural hygiene: **inspecting reposit
 
 ---
 
+## Install from Source
+
+Clone the standalone skill repository, validate it, then follow the platform-specific instructions:
+
+```bash
+git clone https://github.com/technoezmobile/ElementraUI-Skill.git
+cd ElementraUI-Skill
+npm test
+```
+
+Use [docs/INSTALLATION.md](docs/INSTALLATION.md) for the supported placement or adapter instructions. This repository is intentionally separate from the ElementraUI website and does not require the website source tree to run its CLI or validation script.
+
+---
+
 ## Supported AI Coding Environments
 
 | Platform / Agent | Status | Integration Mechanism | Documentation |
@@ -69,7 +83,7 @@ elementraui-skill/
 ├── SECURITY.md              # Security and untrusted code boundaries
 ├── package.json             # NPM metadata and validation scripts
 ├── adapters/                # Ready-to-use platform adapters (Antigravity, Claude, Cursor, Windsurf)
-├── docs/                    # Complete 11-part documentation suite
+├── docs/                    # Complete documentation suite and launch guide
 ├── examples/                # Step-by-step implementation and adaptation walkthroughs
 ├── references/              # Classification rules, schemas, and workflow cheat sheets
 └── scripts/                 # CLI discovery helper and integrity validation suite
@@ -90,6 +104,7 @@ elementraui-skill/
 - [docs/EXAMPLES.md](docs/EXAMPLES.md) — Complete prompt dialogs and integration scenarios.
 - [docs/TESTING.md](docs/TESTING.md) — How to run the automated validation test suite.
 - [docs/RELEASE.md](docs/RELEASE.md) — Packaging manifest and release verification.
+- [docs/LAUNCH.md](docs/LAUNCH.md) — Public launch checklist, suggested GitHub metadata, and announcement copy.
 
 ---
 
